@@ -1,0 +1,39 @@
+body {
+  font-family: 'Arial', sans-serif; /* Можно изменить шрифт */
+  background-color: #800080; /* Пурпурный цвет */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Занимает всю высоту экрана */
+  margin: 0;
+  color: white; /* Цвет текста */
+}
+
+.container {
+  text-align: center;
+}
+
+img {
+  max-width: 300px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#yesButton {
+  background-color: #4CAF50; /* Зеленый цвет */
+  color: white;
+}
+
+#noButton {
+  background-color: #f44336; /* Красный цвет */
+  color: white;
+}
